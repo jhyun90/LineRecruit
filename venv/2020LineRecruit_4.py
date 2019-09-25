@@ -54,6 +54,14 @@ for i in range(len(seats)):
             dis_list.append(dis)
             # print(dis_list)
 
+        else:
+            if dist_from_left < dist_from_right:
+                dis = dist_from_left
+            elif dist_from_right < dist_from_left:
+                dis = dist_from_right
+
+            dis_list.append(dis)
+
 print(max(dis_list))
 
 '''
@@ -61,4 +69,8 @@ print(max(dis_list))
 1 0 1 0 0 0 1
 7
 1 1 0 0 0 1 1
+4
+1 0 0 1
+5
+1 0 1 0 1
 '''
