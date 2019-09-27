@@ -65,8 +65,13 @@ for i in range(len(seats)):
 print(max(dis_list))
 
 '''
+입력
 7
 1 0 1 0 0 0 1
+출력
+2
+
+Test Case
 7
 1 1 0 0 0 1 1
 4
